@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6C901C1F21D4CF0063AC20 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C901B1F21D4CF0063AC20 /* WXController.m */; };
+		CC6C90201F21D7760063AC20 /* WX_CAShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */; };
 		CC6DD6861F204B4C0016B73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6851F204B4C0016B73C /* main.m */; };
 		CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6881F204B4C0016B73C /* AppDelegate.m */; };
 		CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD68B1F204B4C0016B73C /* ViewController.m */; };
@@ -19,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC6C90191F21D3B90063AC20 /* 相关知识.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "相关知识.h"; sourceTree = "<group>"; };
+		CC6C901A1F21D4CF0063AC20 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
+		CC6C901B1F21D4CF0063AC20 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
+		CC6C901E1F21D7760063AC20 /* WX_CAShapLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WX_CAShapLayerController.h; sourceTree = "<group>"; };
+		CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WX_CAShapLayerController.m; sourceTree = "<group>"; };
 		CC6DD6811F204B4C0016B73C /* WXCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6DD6851F204B4C0016B73C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC6DD6871F204B4C0016B73C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC6C901D1F21D7540063AC20 /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C901E1F21D7760063AC20 /* WX_CAShapLayerController.h */,
+				CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */,
+			);
+			path = "专用图层";
+			sourceTree = "<group>";
+		};
 		CC6DD6781F204B4C0016B73C = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +81,13 @@
 		CC6DD6831F204B4C0016B73C /* WXCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CC6C901D1F21D7540063AC20 /* 专用图层 */,
 				CC6DD69D1F204CFF0016B73C /* FRlogo3.png */,
 				CC6DD69B1F204BF60016B73C /* 180X180.png */,
 				CC6DD6871F204B4C0016B73C /* AppDelegate.h */,
 				CC6DD6881F204B4C0016B73C /* AppDelegate.m */,
+				CC6C901A1F21D4CF0063AC20 /* WXController.h */,
+				CC6C901B1F21D4CF0063AC20 /* WXController.m */,
 				CC6DD68A1F204B4C0016B73C /* ViewController.h */,
 				CC6DD68B1F204B4C0016B73C /* ViewController.m */,
 				CC6DD69F1F2055EC0016B73C /* WXLayerView.h */,
@@ -78,6 +97,7 @@
 				CC6DD6921F204B4C0016B73C /* LaunchScreen.storyboard */,
 				CC6DD6951F204B4C0016B73C /* Info.plist */,
 				CC6DD6841F204B4C0016B73C /* Supporting Files */,
+				CC6C90191F21D3B90063AC20 /* 相关知识.h */,
 			);
 			path = WXCoreAnimation;
 			sourceTree = "<group>";
@@ -164,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6C90201F21D7760063AC20 /* WX_CAShapLayerController.m in Sources */,
 				CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */,
 				CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */,
 				CC6DD6861F204B4C0016B73C /* main.m in Sources */,
+				CC6C901C1F21D4CF0063AC20 /* WXController.m in Sources */,
 				CC6DD6A11F2055EC0016B73C /* WXLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +346,7 @@
 				CC6DD69A1F204B4C0016B73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
