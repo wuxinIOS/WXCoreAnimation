@@ -17,14 +17,14 @@
 
 - (NSArray *)vcArray {
     if (!_vcArray) {
-        _vcArray = @[@"ViewController",@"WX_CAShapLayerController"];
+        _vcArray = @[@"ViewController",@"WX_CAShapLayerController",@"WX_CATextLayerController"];
     }
     return _vcArray;
 }
 
 - (NSArray *)dataArray {
     if (!_dataArray) {
-        _dataArray = @[@"CALayer相关知识(2D,3D转换)",@"CASapeLayer类"];
+        _dataArray = @[@"CALayer相关知识(2D,3D转换)",@"CASapeLayer类",@"CATextLayer类"];
     }
     return _dataArray;
 }

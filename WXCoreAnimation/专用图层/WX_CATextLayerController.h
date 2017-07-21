@@ -1,5 +1,5 @@
 //
-//  WX_CAShapLayerController.h
+//  WX_CATextLayerController.h
 //  WXCoreAnimation
 //
 //  Created by BlackEr Gray on 17/7/21.
@@ -8,6 +8,6 @@
 
 #import "WXBaseController.h"
 
-@interface WX_CAShapLayerController : WXBaseController
+@interface WX_CATextLayerController : WXBaseController
 
 @end

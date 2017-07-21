@@ -8,7 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CC6C901C1F21D4CF0063AC20 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C901B1F21D4CF0063AC20 /* WXController.m */; };
-		CC6C90201F21D7760063AC20 /* WX_CAShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */; };
+		CC6C90231F21D7F90063AC20 /* WXBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90221F21D7F90063AC20 /* WXBaseController.m */; };
+		CC6C90261F21D8ED0063AC20 /* WX_CAShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90251F21D8ED0063AC20 /* WX_CAShapLayerController.m */; };
+		CC6C90291F21EA6F0063AC20 /* WX_CATextLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90281F21EA6F0063AC20 /* WX_CATextLayerController.m */; };
+		CC6C90441F21EE980063AC20 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C902D1F21EE980063AC20 /* NSArray+Log.m */; };
+		CC6C90451F21EE980063AC20 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C902F1F21EE980063AC20 /* NSAttributedString+CZAdditon.m */; };
+		CC6C90461F21EE980063AC20 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90311F21EE980063AC20 /* NSObject+CZRuntime.m */; };
+		CC6C90471F21EE980063AC20 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90331F21EE980063AC20 /* NSString+CZBase64.m */; };
+		CC6C90481F21EE980063AC20 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90351F21EE980063AC20 /* NSString+CZHash.m */; };
+		CC6C90491F21EE980063AC20 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90371F21EE980063AC20 /* NSString+CZPath.m */; };
+		CC6C904A1F21EE980063AC20 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90391F21EE980063AC20 /* UIButton+CZAddition.m */; };
+		CC6C904B1F21EE980063AC20 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C903B1F21EE980063AC20 /* UIColor+CZAddition.m */; };
+		CC6C904C1F21EE980063AC20 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C903D1F21EE980063AC20 /* UILabel+CZAddition.m */; };
+		CC6C904D1F21EE980063AC20 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C903F1F21EE980063AC20 /* UIScreen+CZAddition.m */; };
+		CC6C904E1F21EE980063AC20 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */; };
+		CC6C904F1F21EE980063AC20 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */; };
 		CC6DD6861F204B4C0016B73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6851F204B4C0016B73C /* main.m */; };
 		CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6881F204B4C0016B73C /* AppDelegate.m */; };
 		CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD68B1F204B4C0016B73C /* ViewController.m */; };
@@ -24,8 +38,37 @@
 		CC6C90191F21D3B90063AC20 /* 相关知识.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "相关知识.h"; sourceTree = "<group>"; };
 		CC6C901A1F21D4CF0063AC20 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
 		CC6C901B1F21D4CF0063AC20 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
-		CC6C901E1F21D7760063AC20 /* WX_CAShapLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WX_CAShapLayerController.h; sourceTree = "<group>"; };
-		CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WX_CAShapLayerController.m; sourceTree = "<group>"; };
+		CC6C90211F21D7F90063AC20 /* WXBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseController.h; sourceTree = "<group>"; };
+		CC6C90221F21D7F90063AC20 /* WXBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseController.m; sourceTree = "<group>"; };
+		CC6C90241F21D8ED0063AC20 /* WX_CAShapLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WX_CAShapLayerController.h; sourceTree = "<group>"; };
+		CC6C90251F21D8ED0063AC20 /* WX_CAShapLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WX_CAShapLayerController.m; sourceTree = "<group>"; };
+		CC6C90271F21EA6F0063AC20 /* WX_CATextLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WX_CATextLayerController.h; sourceTree = "<group>"; };
+		CC6C90281F21EA6F0063AC20 /* WX_CATextLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WX_CATextLayerController.m; sourceTree = "<group>"; };
+		CC6C902B1F21EE980063AC20 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		CC6C902C1F21EE980063AC20 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		CC6C902D1F21EE980063AC20 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		CC6C902E1F21EE980063AC20 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		CC6C902F1F21EE980063AC20 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		CC6C90301F21EE980063AC20 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		CC6C90311F21EE980063AC20 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		CC6C90321F21EE980063AC20 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		CC6C90331F21EE980063AC20 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		CC6C90341F21EE980063AC20 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		CC6C90351F21EE980063AC20 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		CC6C90361F21EE980063AC20 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		CC6C90371F21EE980063AC20 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		CC6C90381F21EE980063AC20 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C90391F21EE980063AC20 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C903A1F21EE980063AC20 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C903B1F21EE980063AC20 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C903C1F21EE980063AC20 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C903D1F21EE980063AC20 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C903E1F21EE980063AC20 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C903F1F21EE980063AC20 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C90401F21EE980063AC20 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C90421F21EE980063AC20 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		CC6DD6811F204B4C0016B73C /* WXCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6DD6851F204B4C0016B73C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC6DD6871F204B4C0016B73C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,10 +99,44 @@
 		CC6C901D1F21D7540063AC20 /* 专用图层 */ = {
 			isa = PBXGroup;
 			children = (
-				CC6C901E1F21D7760063AC20 /* WX_CAShapLayerController.h */,
-				CC6C901F1F21D7760063AC20 /* WX_CAShapLayerController.m */,
+				CC6C90241F21D8ED0063AC20 /* WX_CAShapLayerController.h */,
+				CC6C90251F21D8ED0063AC20 /* WX_CAShapLayerController.m */,
+				CC6C90271F21EA6F0063AC20 /* WX_CATextLayerController.h */,
+				CC6C90281F21EA6F0063AC20 /* WX_CATextLayerController.m */,
 			);
 			path = "专用图层";
+			sourceTree = "<group>";
+		};
+		CC6C902A1F21EE980063AC20 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C902B1F21EE980063AC20 /* CZAdditions.h */,
+				CC6C902C1F21EE980063AC20 /* NSArray+Log.h */,
+				CC6C902D1F21EE980063AC20 /* NSArray+Log.m */,
+				CC6C902E1F21EE980063AC20 /* NSAttributedString+CZAdditon.h */,
+				CC6C902F1F21EE980063AC20 /* NSAttributedString+CZAdditon.m */,
+				CC6C90301F21EE980063AC20 /* NSObject+CZRuntime.h */,
+				CC6C90311F21EE980063AC20 /* NSObject+CZRuntime.m */,
+				CC6C90321F21EE980063AC20 /* NSString+CZBase64.h */,
+				CC6C90331F21EE980063AC20 /* NSString+CZBase64.m */,
+				CC6C90341F21EE980063AC20 /* NSString+CZHash.h */,
+				CC6C90351F21EE980063AC20 /* NSString+CZHash.m */,
+				CC6C90361F21EE980063AC20 /* NSString+CZPath.h */,
+				CC6C90371F21EE980063AC20 /* NSString+CZPath.m */,
+				CC6C90381F21EE980063AC20 /* UIButton+CZAddition.h */,
+				CC6C90391F21EE980063AC20 /* UIButton+CZAddition.m */,
+				CC6C903A1F21EE980063AC20 /* UIColor+CZAddition.h */,
+				CC6C903B1F21EE980063AC20 /* UIColor+CZAddition.m */,
+				CC6C903C1F21EE980063AC20 /* UILabel+CZAddition.h */,
+				CC6C903D1F21EE980063AC20 /* UILabel+CZAddition.m */,
+				CC6C903E1F21EE980063AC20 /* UIScreen+CZAddition.h */,
+				CC6C903F1F21EE980063AC20 /* UIScreen+CZAddition.m */,
+				CC6C90401F21EE980063AC20 /* UIView+CZAddition.h */,
+				CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */,
+				CC6C90421F21EE980063AC20 /* UIViewController+CZAddition.h */,
+				CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */,
+			);
+			path = Additions;
 			sourceTree = "<group>";
 		};
 		CC6DD6781F204B4C0016B73C = {
@@ -81,11 +158,14 @@
 		CC6DD6831F204B4C0016B73C /* WXCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CC6C902A1F21EE980063AC20 /* Additions */,
 				CC6C901D1F21D7540063AC20 /* 专用图层 */,
 				CC6DD69D1F204CFF0016B73C /* FRlogo3.png */,
 				CC6DD69B1F204BF60016B73C /* 180X180.png */,
 				CC6DD6871F204B4C0016B73C /* AppDelegate.h */,
 				CC6DD6881F204B4C0016B73C /* AppDelegate.m */,
+				CC6C90211F21D7F90063AC20 /* WXBaseController.h */,
+				CC6C90221F21D7F90063AC20 /* WXBaseController.m */,
 				CC6C901A1F21D4CF0063AC20 /* WXController.h */,
 				CC6C901B1F21D4CF0063AC20 /* WXController.m */,
 				CC6DD68A1F204B4C0016B73C /* ViewController.h */,
@@ -184,11 +264,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6C90201F21D7760063AC20 /* WX_CAShapLayerController.m in Sources */,
+				CC6C904B1F21EE980063AC20 /* UIColor+CZAddition.m in Sources */,
+				CC6C90441F21EE980063AC20 /* NSArray+Log.m in Sources */,
 				CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */,
+				CC6C904C1F21EE980063AC20 /* UILabel+CZAddition.m in Sources */,
+				CC6C90451F21EE980063AC20 /* NSAttributedString+CZAdditon.m in Sources */,
+				CC6C904F1F21EE980063AC20 /* UIViewController+CZAddition.m in Sources */,
+				CC6C90471F21EE980063AC20 /* NSString+CZBase64.m in Sources */,
 				CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */,
 				CC6DD6861F204B4C0016B73C /* main.m in Sources */,
+				CC6C90231F21D7F90063AC20 /* WXBaseController.m in Sources */,
+				CC6C904A1F21EE980063AC20 /* UIButton+CZAddition.m in Sources */,
+				CC6C904D1F21EE980063AC20 /* UIScreen+CZAddition.m in Sources */,
 				CC6C901C1F21D4CF0063AC20 /* WXController.m in Sources */,
+				CC6C90461F21EE980063AC20 /* NSObject+CZRuntime.m in Sources */,
+				CC6C90291F21EA6F0063AC20 /* WX_CATextLayerController.m in Sources */,
+				CC6C90261F21D8ED0063AC20 /* WX_CAShapLayerController.m in Sources */,
+				CC6C90491F21EE980063AC20 /* NSString+CZPath.m in Sources */,
+				CC6C904E1F21EE980063AC20 /* UIView+CZAddition.m in Sources */,
+				CC6C90481F21EE980063AC20 /* NSString+CZHash.m in Sources */,
 				CC6DD6A11F2055EC0016B73C /* WXLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
