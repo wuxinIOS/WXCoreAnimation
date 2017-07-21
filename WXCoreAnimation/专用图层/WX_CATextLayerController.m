@@ -8,21 +8,20 @@
 
 #import "WX_CATextLayerController.h"
 
+
 @interface WX_CATextLayerController ()
 @property (nonatomic, strong) UIView *labelView;
 @end
 
 @implementation WX_CATextLayerController
 
-- (UIView *)labelView {
-    if (!_labelView) {
-        _labelView = [UIView alloc];
-    }
-}
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.labelView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    self.labelView.center = self.view.center;
+    NSLog(@"%f",self.labelView.wx_x);
     // Do any additional setup after loading the view.
 }
 

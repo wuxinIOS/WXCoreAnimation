@@ -23,6 +23,7 @@
 		CC6C904D1F21EE980063AC20 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C903F1F21EE980063AC20 /* UIScreen+CZAddition.m */; };
 		CC6C904E1F21EE980063AC20 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */; };
 		CC6C904F1F21EE980063AC20 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */; };
+		CC6C90541F21F0630063AC20 /* UIView+WXViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C90531F21F0630063AC20 /* UIView+WXViewFrame.m */; };
 		CC6DD6861F204B4C0016B73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6851F204B4C0016B73C /* main.m */; };
 		CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6881F204B4C0016B73C /* AppDelegate.m */; };
 		CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD68B1F204B4C0016B73C /* ViewController.m */; };
@@ -69,6 +70,9 @@
 		CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		CC6C90421F21EE980063AC20 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		CC6C90501F21EF040063AC20 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC6C90521F21F0630063AC20 /* UIView+WXViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXViewFrame.h"; sourceTree = "<group>"; };
+		CC6C90531F21F0630063AC20 /* UIView+WXViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXViewFrame.m"; sourceTree = "<group>"; };
 		CC6DD6811F204B4C0016B73C /* WXCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6DD6851F204B4C0016B73C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC6DD6871F204B4C0016B73C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				CC6C90411F21EE980063AC20 /* UIView+CZAddition.m */,
 				CC6C90421F21EE980063AC20 /* UIViewController+CZAddition.h */,
 				CC6C90431F21EE980063AC20 /* UIViewController+CZAddition.m */,
+				CC6C90521F21F0630063AC20 /* UIView+WXViewFrame.h */,
+				CC6C90531F21F0630063AC20 /* UIView+WXViewFrame.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 				CC6DD6951F204B4C0016B73C /* Info.plist */,
 				CC6DD6841F204B4C0016B73C /* Supporting Files */,
 				CC6C90191F21D3B90063AC20 /* 相关知识.h */,
+				CC6C90501F21EF040063AC20 /* PrefixHeader.pch */,
 			);
 			path = WXCoreAnimation;
 			sourceTree = "<group>";
@@ -269,6 +276,7 @@
 				CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */,
 				CC6C904C1F21EE980063AC20 /* UILabel+CZAddition.m in Sources */,
 				CC6C90451F21EE980063AC20 /* NSAttributedString+CZAdditon.m in Sources */,
+				CC6C90541F21F0630063AC20 /* UIView+WXViewFrame.m in Sources */,
 				CC6C904F1F21EE980063AC20 /* UIViewController+CZAddition.m in Sources */,
 				CC6C90471F21EE980063AC20 /* NSString+CZBase64.m in Sources */,
 				CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */,
@@ -402,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38L5433X9B;
+				GCC_PREFIX_HEADER = WXCoreAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = WXCoreAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tezhi.WXCoreAnimation;
@@ -414,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38L5433X9B;
+				GCC_PREFIX_HEADER = WXCoreAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = WXCoreAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tezhi.WXCoreAnimation;
