@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLU-fl-l4j">
+                                <rect key="frame" x="55" y="120" width="240" height="221"/>
+                                <color key="backgroundColor" red="1" green="0.31123104210000002" blue="0.46238136759999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2n9-M8-0XT">
+                                <rect key="frame" x="55" y="120" width="240" height="221"/>
+                                <color key="backgroundColor" red="0.38638354460000002" green="0.77592189219999996" blue="0.80653339619999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2n9-M8-0XT" firstAttribute="leading" secondItem="YLU-fl-l4j" secondAttribute="leading" id="Ano-ou-rAi"/>
+                            <constraint firstAttribute="trailing" secondItem="YLU-fl-l4j" secondAttribute="trailing" constant="80" id="Bp6-cU-368"/>
+                            <constraint firstItem="2n9-M8-0XT" firstAttribute="top" secondItem="YLU-fl-l4j" secondAttribute="top" id="C2e-Y8-uav"/>
+                            <constraint firstItem="YLU-fl-l4j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Jxx-6N-dU0"/>
+                            <constraint firstItem="YLU-fl-l4j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="55" id="Sh3-7C-PXS"/>
+                            <constraint firstItem="2n9-M8-0XT" firstAttribute="trailing" secondItem="YLU-fl-l4j" secondAttribute="trailing" id="Typ-Xa-3pH"/>
+                            <constraint firstItem="2n9-M8-0XT" firstAttribute="bottom" secondItem="YLU-fl-l4j" secondAttribute="bottom" id="Yar-20-ABt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YLU-fl-l4j" secondAttribute="bottom" constant="326" id="xRo-eY-wdr"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueView" destination="2n9-M8-0XT" id="kYD-E0-3aU"/>
+                        <outlet property="redView" destination="YLU-fl-l4j" id="6E7-7q-bk1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-114" y="63"/>
         </scene>
     </scenes>
 </document>

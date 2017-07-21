@@ -13,6 +13,9 @@
 		CC6DD68F1F204B4C0016B73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6DD68D1F204B4C0016B73C /* Main.storyboard */; };
 		CC6DD6911F204B4C0016B73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6DD6901F204B4C0016B73C /* Assets.xcassets */; };
 		CC6DD6941F204B4C0016B73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6DD6921F204B4C0016B73C /* LaunchScreen.storyboard */; };
+		CC6DD69C1F204BF60016B73C /* 180X180.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6DD69B1F204BF60016B73C /* 180X180.png */; };
+		CC6DD69E1F204CFF0016B73C /* FRlogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6DD69D1F204CFF0016B73C /* FRlogo3.png */; };
+		CC6DD6A11F2055EC0016B73C /* WXLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DD6A01F2055EC0016B73C /* WXLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		CC6DD6901F204B4C0016B73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6DD6931F204B4C0016B73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC6DD6951F204B4C0016B73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6DD69B1F204BF60016B73C /* 180X180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180X180.png; sourceTree = "<group>"; };
+		CC6DD69D1F204CFF0016B73C /* FRlogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FRlogo3.png; sourceTree = "<group>"; };
+		CC6DD69F1F2055EC0016B73C /* WXLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLayerView.h; sourceTree = "<group>"; };
+		CC6DD6A01F2055EC0016B73C /* WXLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +65,14 @@
 		CC6DD6831F204B4C0016B73C /* WXCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CC6DD69D1F204CFF0016B73C /* FRlogo3.png */,
+				CC6DD69B1F204BF60016B73C /* 180X180.png */,
 				CC6DD6871F204B4C0016B73C /* AppDelegate.h */,
 				CC6DD6881F204B4C0016B73C /* AppDelegate.m */,
 				CC6DD68A1F204B4C0016B73C /* ViewController.h */,
 				CC6DD68B1F204B4C0016B73C /* ViewController.m */,
+				CC6DD69F1F2055EC0016B73C /* WXLayerView.h */,
+				CC6DD6A01F2055EC0016B73C /* WXLayerView.m */,
 				CC6DD68D1F204B4C0016B73C /* Main.storyboard */,
 				CC6DD6901F204B4C0016B73C /* Assets.xcassets */,
 				CC6DD6921F204B4C0016B73C /* LaunchScreen.storyboard */,
@@ -138,9 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6DD69C1F204BF60016B73C /* 180X180.png in Resources */,
 				CC6DD6941F204B4C0016B73C /* LaunchScreen.storyboard in Resources */,
 				CC6DD6911F204B4C0016B73C /* Assets.xcassets in Resources */,
 				CC6DD68F1F204B4C0016B73C /* Main.storyboard in Resources */,
+				CC6DD69E1F204CFF0016B73C /* FRlogo3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +167,7 @@
 				CC6DD68C1F204B4C0016B73C /* ViewController.m in Sources */,
 				CC6DD6891F204B4C0016B73C /* AppDelegate.m in Sources */,
 				CC6DD6861F204B4C0016B73C /* main.m in Sources */,
+				CC6DD6A11F2055EC0016B73C /* WXLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
