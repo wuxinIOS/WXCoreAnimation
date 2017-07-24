@@ -19,7 +19,7 @@
         _vcArray = @[
                      @{@"name":@"CALayer相关知识",@"vcName":@[@"ViewController"],@"content":@[@"CALayer相关知识(2D,3D转换)"]},
   
-                     @{@"name":@"专用图层",@"vcName":@[@"WX_CAShapLayerController",@"WX_CATextLayerController"],@"content":@[@"CASapeLayer类",@"CATextLayer类"]},
+                     @{@"name":@"专用图层",@"vcName":@[@"WX_CAShapLayerController",@"WX_CATextLayerController",@"WX_CAReplicatorLayerController",@"WX_CAScrollLayerViewController",@"WX_CATiledLayerController"],@"content":@[@"CASapeLayer类",@"CATextLayer类",@"CAReplicatorLayer类",@"CAScrollLayer类",@"CATiledLayer类"]},
                      
                      ];
     }

@@ -14,10 +14,30 @@
 
 @implementation WXBaseController
 
+- (WXLayerView *)containerView {
+    if (!_containerView) {
+        _containerView = [[WXLayerView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+        _containerView.backgroundColor = [UIColor whiteColor];
+        _containerView.center = self.view.center;
+    }
+    return  _containerView;
+}
+
+- (UIView *)containerLayerView {
+    if (!_containerLayerView) {
+        _containerLayerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.width)];
+        _containerLayerView.backgroundColor = [UIColor whiteColor];
+        _containerLayerView.center = self.view.center;
+    }
+    return _containerLayerView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor grayColor];
 
+    [self.view addSubview:self.containerLayerView];
+    
 }
 
 - (void)dealloc {

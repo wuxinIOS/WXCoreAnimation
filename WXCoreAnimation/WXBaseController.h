@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXLayerView.h"
+
 
 @interface WXBaseController : UIViewController
-
+@property (nonatomic, strong)WXLayerView *containerView;
+@property (nonatomic, strong)UIView *containerLayerView;
 @end
