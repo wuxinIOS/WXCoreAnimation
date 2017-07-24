@@ -28,6 +28,8 @@
 /// @param blue  blue
 ///
 /// @return 颜色
+
+
 + (instancetype)cz_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue;
 
 @end
