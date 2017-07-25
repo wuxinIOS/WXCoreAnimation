@@ -20,7 +20,7 @@
     [super viewDidLoad];
 
     self.layerView = [[UIView alloc]initWithFrame:CGRectMake(10, 10, self.containerLayerView.bounds.size.width - 2 * 10, 100)];
-    self.layerView.backgroundColor = [UIColor whiteColor];
+    self.layerView.backgroundColor = [UIColor redColor];
     [self.containerLayerView addSubview:self.layerView];
     
     self.changedColorBtn = [UIButton cz_textButton:@"改变颜色" fontSize:15 normalColor:[UIColor redColor] highlightedColor:[UIColor redColor]];
@@ -40,9 +40,11 @@
 
 
 - (void)changeColorButton:(UIButton *)sender {
+    //只是图层做相关动画
     // begin a new transaction
     [CATransaction begin];
     [CATransaction setAnimationDuration:1.0f];
+    
     
     //颜色变化完成后，执行的动画
     [CATransaction setCompletionBlock:^{
