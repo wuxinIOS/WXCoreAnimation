@@ -21,6 +21,8 @@
   
                      @{@"name":@"专用图层",@"vcName":@[@"WX_CAShapLayerController",@"WX_CATextLayerController",@"WX_CAReplicatorLayerController",@"WX_CAScrollLayerViewController",@"WX_CAEmitterLayerController"],@"content":@[@"CASapeLayer类",@"CATextLayer类",@"CAReplicatorLayer类",@"CAScrollLayer类",@"CAEmitterLayer类"]},
                      
+                     @{@"name":@"隐式动画",@"vcName":@[@"WX_BasicAnimationController"],@"content":@[@"一些基本的隐式动画"]}
+                     
                      ];
     }
     return _vcArray;
